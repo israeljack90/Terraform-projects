@@ -79,3 +79,11 @@ variable "ssl_certifcate_arn" {
     description     = "ssl certificate"
     type            = string
 }
+
+# sns topic variables
+# application load balancer variables
+variable "operator_email" {
+    default         = "israel.jack90@gmail.com"
+    description     = "valid email address"
+    type            = string
+}
